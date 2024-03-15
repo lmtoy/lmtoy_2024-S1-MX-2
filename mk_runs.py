@@ -31,6 +31,8 @@ pars1["G1.7+3.7-234_03_of_04"]   = "pix_list=-13,14,15 extent=500 b_order=1"
 pars1["G1.7+3.7-234_04_of_04"]   = "pix_list=-13,14,15 extent=500 b_order=1"
 pars1["G358.7+3.7+179_01_of_04"] = "pix_list=-13,14,15 extent=500 b_order=1"
 pars1["G358.7+3.7+179_02_of_04"] = "pix_list=-13,14,15 extent=500 b_order=1"
+pars1["G358.7+3.7+179_03_of_04"] = "pix_list=-13,14,15 extent=500 b_order=1"
+pars1["G358.7+3.7+179_04_of_04"] = "pix_list=-13,14,15 extent=500 b_order=1"
 
 #        common parameters per source on subsequent runs (run1b, run2b)
 pars2 = {}
@@ -38,12 +40,16 @@ pars2["G1.7+3.7-234_03_of_04"]   = "bank=0 birdies=1021,1024,1027,1637,2045,2048
 pars2["G1.7+3.7-234_04_of_04"]   = "bank=0 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13"
 pars2["G358.7+3.7+179_01_of_04"] = "bank=0 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13"
 pars2["G358.7+3.7+179_02_of_04"] = "bank=0 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13"
+pars2["G358.7+3.7+179_03_of_04"] = "bank=0 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13"
+pars2["G358.7+3.7+179_04_of_04"] = "bank=0 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13"
 
 pars3 = {}
 pars3["G1.7+3.7-234_03_of_04"]   = "bank=1 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13,14,15"
 pars3["G1.7+3.7-234_04_of_04"]   = "bank=1 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13,14,15"
 pars3["G358.7+3.7+179_01_of_04"] = "bank=1 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13,14,15"
 pars3["G358.7+3.7+179_02_of_04"] = "bank=1 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13,14,15"
+pars3["G358.7+3.7+179_03_of_04"] = "bank=1 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13,14,15"
+pars3["G358.7+3.7+179_04_of_04"] = "bank=1 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13,14,15"
 
 
 if __name__ == '__main__':    
