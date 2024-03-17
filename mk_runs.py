@@ -24,7 +24,9 @@ on["G358.7+3.7+179_03_of_04"] =  [ 113027, 113137,]
 
 on["G358.7+3.7+179_04_of_04"] =  [ 113029, 113139,]
 
-on["G358"] = on["G358.7+3.7+179_01_of_04"] + on["G358.7+3.7+179_02_of_04"] + on["G358.7+3.7+179_03_of_04"] + on["G358.7+3.7+179_04_of_04"]
+#on["G1-mos"]  
+on["G358-mos"] = on["G358.7+3.7+179_01_of_04"] + on["G358.7+3.7+179_02_of_04"] + on["G358.7+3.7+179_03_of_04"] + on["G358.7+3.7+179_04_of_04"]
+
 
 
 #        common parameters per source on the first dryrun (run1a, run2a)
@@ -35,7 +37,7 @@ pars1["G358.7+3.7+179_01_of_04"] = "pix_list=-13,14,15 extent=500 b_order=1 dv=2
 pars1["G358.7+3.7+179_02_of_04"] = "pix_list=-13,14,15 extent=500 b_order=1 dv=20 dw=20"
 pars1["G358.7+3.7+179_03_of_04"] = "pix_list=-13,14,15 extent=500 b_order=1 dv=20 dw=20"
 pars1["G358.7+3.7+179_04_of_04"] = "pix_list=-13,14,15 extent=500 b_order=1 dv=20 dw=20"
-pars1["G358"] = "pix_list=-13,14,15 extent=500 b_order=1 dv=20 dw=20"
+pars1["G358-mos"] = "pix_list=-13,14,15 extent=500 b_order=1 dv=20 dw=20"
 
 #        common parameters per source on subsequent runs (run1b, run2b)
 pars2 = {}
@@ -45,7 +47,7 @@ pars2["G358.7+3.7+179_01_of_04"] = "bank=0 birdies=1021,1024,1027,1637,2045,2048
 pars2["G358.7+3.7+179_02_of_04"] = "bank=0 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13"
 pars2["G358.7+3.7+179_03_of_04"] = "bank=0 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13"
 pars2["G358.7+3.7+179_04_of_04"] = "bank=0 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13"
-pars2["G358"] = "bank=0 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13"
+pars2["G358-mos"] = "bank=0 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13"
 
 pars3 = {}
 pars3["G1.7+3.7-234_03_of_04"]   = "bank=1 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13,14,15"
@@ -54,7 +56,7 @@ pars3["G358.7+3.7+179_01_of_04"] = "bank=1 birdies=1021,1024,1027,1637,2045,2048
 pars3["G358.7+3.7+179_02_of_04"] = "bank=1 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13,14,15"
 pars3["G358.7+3.7+179_03_of_04"] = "bank=1 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13,14,15"
 pars3["G358.7+3.7+179_04_of_04"] = "bank=1 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13,14,15"
-pars3["G358"] = "bank=1 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13,14,15"
+pars3["G358-mos"] = "bank=1 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13,14,15"
 
 
 if __name__ == '__main__':    
