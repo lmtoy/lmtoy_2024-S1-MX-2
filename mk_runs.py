@@ -11,6 +11,10 @@ project="2024-S1-MX-2"
 #        obsnums per source (make it negative if not added to the final combination)
 on = {}
 
+on["G1.7+3.7-234_01_of_04"] =  [ 117345,]
+
+on["G1.7+3.7-234_02_of_04"] =  [ 117349,]
+
 on["G1.7+3.7-234_03_of_04"] =  [ 112524,]
 
 on["G1.7+3.7-234_04_of_04"] =  [ 112532,]
