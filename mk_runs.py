@@ -31,10 +31,10 @@ on["G358-mos"] = on["G358.7+3.7+179_01_of_04"] + on["G358.7+3.7+179_02_of_04"] +
 
 #        common parameters per source on the first dryrun (run1a, run2a)
 pars1 = {}
-pars1["G1.7+3.7-234_01_of_04"]   = "pix_list=-15 extent=500 b_order=3 dv=30 dw=30"
-pars1["G1.7+3.7-234_02_of_04"]   = "pix_list=-15 extent=500 b_order=3 dv=30 dw=30"
-pars1["G1.7+3.7-234_03_of_04"]   = "pix_list=-15 extent=500 b_order=3 dv=30 dw=30"
-pars1["G1.7+3.7-234_04_of_04"]   = "pix_list=-15 extent=500 b_order=3 dv=30 dw=30"
+pars1["G1.7+3.7-234_01_of_04"]   = "pix_list=-15 extent=500 b_order=3 dv=30 dw=30 vlsr=-234"
+pars1["G1.7+3.7-234_02_of_04"]   = "pix_list=-15 extent=500 b_order=3 dv=30 dw=30 vlsr=-234"
+pars1["G1.7+3.7-234_03_of_04"]   = "pix_list=-15 extent=500 b_order=3 dv=30 dw=30 vlsr=-234"
+pars1["G1.7+3.7-234_04_of_04"]   = "pix_list=-15 extent=500 b_order=3 dv=30 dw=30 vlsr=-234"
 pars1["G1-mos"]                  = "skip=1"     # comment out if no mosaic desired
 
 # M Heyer  04/17./2024 -- vlsr =179 and pix_list=-13  (not 13,14,15)  dv=20 dw=50
