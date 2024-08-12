@@ -3,7 +3,7 @@
 Two sources, taken in quadrants.  We can safely use one source name?  Use G358 and G1 ?
 
 G358.7+3.7+179 (_01_of_04 etc.)
-G1.7+3.7-234   (_01_of_04 etc.)
+G1.7+3.7-234   (_01_of_04 etc.)    [see also 2 fields in 2023-S1-UM-16]
 
 These data are huge, we needed 32GB memory for processing, 16GB was not enough.
 
