@@ -1,9 +1,95 @@
 #  <obsnum>   <comment>     # <SLpipeline args>
 #123456    QAFAIL     # ...
 #
-112139  birdies, vlsr?
-112292  birdies, vlsr?
-112296  birdies, vlsr?
-
+#112139  birdies, vlsr?
+#112292  birdies, vlsr?
+#112296  birdies, vlsr?
 
 120512 no valid data
+
+
+110041__0  # pix_list=-0,5,13
+110049__0  # pix_list=-0,5,13
+110053__0  # pix_list=-0,13
+112524__0  # pix_list=-4,5,13
+112532__0  # pix_list=-4,5,13
+117345__0  # pix_list=-0,4,5,13
+117349__0  # pix_list=-0,4,5,13
+120317__0  # pix_list=-4,5,10,11,13
+120319__0  # pix_list=-4,5,13
+120323__0  # pix_list=-1,4,5,13
+120325__0  # pix_list=-1,4,5,13
+120407__0  # pix_list=-1,4,5,13 
+120409__0  # pix_list=-1,4,5,13
+120516__0  # pix_list=-5,13
+120518__0  # pix_list=-5,13
+120651__0  # pix_list=-4,5,13
+
+
+117345__1  # pix_list=-13,14,15 
+120317__1  # pix_list=-3,4,13,14,15
+120409__1  # pix_list=-3,4,13,14,15
+110041__1  # pix_list=-0,13,14,15
+117349__1  # pix_list=-13,14,15
+120319__1  # pix_list=-3,13,14,15
+120516__1  # pix_list=-13,14,15
+110049__1  # pix_list=-0,13,14,15
+112524__1  # pix_list=-13,14,15
+120323__1  # pix_list=-3,13,14,15
+120518__1  # pix_list=-2,4,13,14,15
+110053__1  # pix_list=-0,13,14,15
+112532__1  # pix_list=-13,14,15
+120325__1  # pix_list=-3,13,14,15
+120407__1  # pix_list=-13,14,15
+120651__1  # pix_list=-13,14,15
+
+
+
+# ???  G358
+
+112139__0   bad? # pix_list=-1,13
+112292__0   bad? # pix_list=-3,13
+112296__0   bad? # pix_list=-3,11,13,14,15,13
+112518__0   # pix_list=-1,13
+112788__0   # pix_list=-1,13
+113027__0   # pix_list=-1,13
+113029__0   # pix_list=-1,13
+113137__0   # pix_list=-0,1,4,5,13
+113139__0   # pix_list=-0,1,4,5,13
+117039__0   # pix_list=-0,1,13
+117043__0   # pix_list=-0,1,13
+117047__0   # pix_list=-0,1,5,13 
+
+##SLpipeline.sh obsnum=112139 _s=G358.7+3.7+179_01_of_04 bank=0 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13 otf_cal=1 
+##SLpipeline.sh obsnum=112292 _s=G358.7+3.7+179_01_of_04 bank=0 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-0,1,4,5,13 otf_cal=1 
+##SLpipeline.sh obsnum=112296 _s=G358.7+3.7+179_01_of_04 bank=0 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-0,1,4,5,13 otf_cal=1 
+#SLpipeline.sh obsnum=120057 _s=G358.7+3.7+179_01_of_04 bank=0 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13 otf_cal=1 
+#SLpipeline.sh obsnum=120061 _s=G358.7+3.7+179_01_of_04 bank=0 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13 otf_cal=1 
+#SLpipeline.sh obsnum=120214 _s=G358.7+3.7+179_01_of_04 bank=0 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13 otf_cal=1 
+#SLpipeline.sh obsnum=112518 _s=G358.7+3.7+179_02_of_04 bank=0 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13 otf_cal=1 
+#SLpipeline.sh obsnum=112788 _s=G358.7+3.7+179_02_of_04 bank=0 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13 otf_cal=1 
+#SLpipeline.sh obsnum=117039 _s=G358.7+3.7+179_02_of_04 bank=0 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13 otf_cal=1 
+#SLpipeline.sh obsnum=113027 _s=G358.7+3.7+179_03_of_04 bank=0 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13 otf_cal=1 
+#SLpipeline.sh obsnum=113137 _s=G358.7+3.7+179_03_of_04 bank=0 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13 otf_cal=1 
+#SLpipeline.sh obsnum=117043 _s=G358.7+3.7+179_03_of_04 bank=0 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13 otf_cal=1 
+#SLpipeline.sh obsnum=113029 _s=G358.7+3.7+179_04_of_04 bank=0 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13 otf_cal=1 
+#SLpipeline.sh obsnum=113139 _s=G358.7+3.7+179_04_of_04 bank=0 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13 otf_cal=1 
+#SLpipeline.sh obsnum=117047 _s=G358.7+3.7+179_04_of_04 bank=0 birdies=1021,1024,1027,1637,2045,2048,2051 pix_list=-13 otf_cal=1
+
+
+# looks like all of them....same...
+# 112139__1 #  pix_list=-13,14,15
+# 112292__1 #  pix_list=-13,14,15
+# 112296__1 #  pix_list=-13,14,15
+# 120057__1 #  pix_list=-13,14,15
+# 120061__1 #  pix_list=-13,14,15
+# 120214__1 #  pix_list=-13,14,15
+# 112518__1 #  pix_list=-13,14,15
+# 112788__1 #  pix_list=-13,14,15
+# 117039__1 #  pix_list=-13,14,15
+# 113027__1 #  pix_list=-13,14,15
+# 113137__1 #  pix_list=-13,14,15
+# 117043__1 #  pix_list=-13,14,15
+# 113029__1 #  pix_list=-13,14,15
+# 113139__1 #  pix_list=-13,14,15
+# 117047__1 #  pix_list=-13,14,15
